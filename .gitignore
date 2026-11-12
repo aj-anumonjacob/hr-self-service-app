@@ -1,0 +1,9 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+**/storage/app/firebase/
+*.zip
+*.ipa
+*.apk
+*.aab
