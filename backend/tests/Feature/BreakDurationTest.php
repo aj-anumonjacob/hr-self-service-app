@@ -44,7 +44,7 @@ class BreakDurationTest extends TestCase
         $this->user->roles()->attach($roleEmp->id);
 
         $this->company = Company::create([
-            'name' => 'AR Properties Test',
+            'name' => 'Demo Company Test',
             'code' => 'ARPT'
         ]);
 

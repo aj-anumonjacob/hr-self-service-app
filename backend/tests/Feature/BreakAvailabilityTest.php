@@ -43,7 +43,7 @@ class BreakAvailabilityTest extends TestCase
         $this->user->roles()->attach($roleEmp->id);
 
         $this->company = Company::create([
-            'name' => 'AR Properties Avail',
+            'name' => 'Demo Company Avail',
             'code' => 'ARPA'
         ]);
 

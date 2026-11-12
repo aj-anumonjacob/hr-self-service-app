@@ -13,6 +13,27 @@ A cross-platform Android and iOS app for employee attendance and HR self-service
 - **Security:** Sanctum access tokens plus rotating refresh tokens, device binding with one-time activation codes, biometric unlock, and secure token storage
 - **Compliance docs:** privacy, location, biometric and data-retention policies in `legal/`
 
+## Screenshots
+
+> Captured on the iOS Simulator against a local backend with demo data (made-up employees and attendance).
+
+<table>
+<tr>
+<td align="center"><img src="screenshots/01-home.png" width="230"><br><b>Home</b></td>
+<td align="center"><img src="screenshots/02-record-attendance.png" width="230"><br><b>GPS check-in / out</b></td>
+<td align="center"><img src="screenshots/03-attendance-calendar.png" width="230"><br><b>Attendance calendar</b></td>
+</tr>
+<tr>
+<td align="center"><img src="screenshots/04-leave.png" width="230"><br><b>Leave balances & requests</b></td>
+<td align="center"><img src="screenshots/05-requests-claims.png" width="230"><br><b>Attendance claims</b></td>
+<td align="center"><img src="screenshots/06-recents.png" width="230"><br><b>Recent activity</b></td>
+</tr>
+<tr>
+<td align="center"><img src="screenshots/07-manager-console.png" width="230"><br><b>Manager console</b></td>
+<td></td><td></td>
+</tr>
+</table>
+
 ## Tech
 
 | Part | Stack |

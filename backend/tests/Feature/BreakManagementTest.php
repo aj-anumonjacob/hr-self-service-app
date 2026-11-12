@@ -57,7 +57,7 @@ class BreakManagementTest extends TestCase
         $this->managerUser->roles()->attach([$roleMgr->id, $roleAdmin->id]);
 
         $this->company = Company::create([
-            'name' => 'AR Properties',
+            'name' => 'Demo Company',
             'code' => 'ARP'
         ]);
 

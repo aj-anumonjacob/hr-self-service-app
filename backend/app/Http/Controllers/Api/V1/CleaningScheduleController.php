@@ -158,7 +158,7 @@ class CleaningScheduleController extends Controller
                 'work_order_number' => $o->invoice_no ?: ('CLN-' . sprintf('%04d', $o->id)),
                 'title' => $o->client_name ? ("Cleaning - " . $o->client_name) : ("Housekeeping Cleaning #" . $o->id),
                 'client_name' => $o->client_name ?: 'Al Reem Guest / Tenant',
-                'building_name' => $o->building_name ?: 'AR Properties',
+                'building_name' => $o->building_name ?: 'Demo Company',
                 'unit_number' => $o->unit_number ?: null,
                 'location_address' => $o->address_o ?: ($o->building_name ? "{$o->building_name} Unit {$o->unit_number}" : 'Main Property'),
                 'schedule_date' => $cleanDate,

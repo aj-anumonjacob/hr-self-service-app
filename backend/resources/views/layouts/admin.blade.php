@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AR Properties - Antigravity Attendance Portal</title>
+    <title>Demo Company - Antigravity Attendance Portal</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap Icons -->
@@ -94,7 +94,7 @@
             <!-- Sidebar -->
             <div class="col-md-3 col-lg-2 px-0 sidebar d-none d-md-block">
                 <div class="sidebar-brand d-flex align-items-center justify-content-center">
-                    <span>AR Properties</span>
+                    <span>Demo Company</span>
                 </div>
                 <ul class="nav flex-column mt-3">
                     <li class="nav-item">

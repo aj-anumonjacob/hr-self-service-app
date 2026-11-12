@@ -38,7 +38,7 @@ class RecentsTest extends TestCase
         $this->user->roles()->attach($roleEmp->id);
 
         $this->company = Company::create([
-            'name' => 'AR Properties',
+            'name' => 'Demo Company',
             'code' => 'ARP'
         ]);
 

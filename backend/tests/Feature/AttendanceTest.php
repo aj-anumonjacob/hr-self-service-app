@@ -42,7 +42,7 @@ class AttendanceTest extends TestCase
 
         // 3. Setup Company & Off Rule
         $company = Company::create([
-            'name' => 'AR Properties',
+            'name' => 'Demo Company',
             'code' => 'ARP'
         ]);
 
